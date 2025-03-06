@@ -1,11 +1,11 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Page() {
   return (
     <div>
       <Head>
-        <meta name="og:title" content="Vercel Edge Network" />
-        <meta name="og:description" content="Vercel Edge Network" />
+        <meta name="og:title" content="WattMaven" />
+        <meta name="og:description" content="WattMaven" />
         <meta
           name="og:image"
           content={
@@ -14,12 +14,11 @@ export default function Page() {
             // More info:
             // https://vercel.com/docs/concepts/projects/environment-variables
             `${
-              process.env.VERCEL_URL ? 'https://' + process.env.VERCEL_URL : ''
+              process.env.VERCEL_URL ? "https://" + process.env.VERCEL_URL : ""
             }/api/vercel`
           }
         />
       </Head>
-      <h1>A page with Open Graph Image.</h1>
     </div>
-  )
+  );
 }

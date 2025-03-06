@@ -1,23 +1,48 @@
 {
-  "name": "vercel-og-nextjs",
-  "repository": "https://github.com/vercel/examples.git",
-  "license": "MIT",
+  "name": "@wattmaven/og",
+  "version": "0.0.0",
   "private": true,
+  "type": "module",
+  "repository": "https://github.com/wattmaven/og.git",
+  "license": "MIT",
   "scripts": {
+    "install:hooks": "lefthook install",
+    "commitlint": "commitlint",
+    "format:check:prettier": "prettier --check .",
+    "format:fix:prettier": "prettier --write .",
+    "format:check": "run-s format:check:*",
+    "format:fix": "run-s format:fix:*",
+    "lint:check": "next lint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "fix": "run-s *:fix",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "clean": "rimraf .next node_modules",
+    "pre-commit-tasks": "turbo format:check lint:check",
+    "ci:smoke-test": "turbo format:check lint:check"
   },
   "dependencies": {
-    "@vercel/og": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "@vercel/og": "^0.5.2",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@commitlint/prompt-cli": "^19.7.1",
+    "@commitlint/types": "^19.5.0",
     "@types/node": "^18.15.5",
     "@types/react": "^18.0.28",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "^15.2.1",
+    "eslint-config-prettier": "^10.0.2",
+    "lefthook": "^1.11.2",
+    "npm-run-all2": "^7.0.2",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "rimraf": "^6.0.1",
     "turbo": "^1.8.5",
     "typescript": "^4.9.5"
   }
