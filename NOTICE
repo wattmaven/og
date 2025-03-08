@@ -1,0 +1,9 @@
+NOTICE
+
+This project incorporates material from the following third parties:
+
+1. Vercel Template
+   - Source: https://github.com/vercel/examples/tree/main/edge-functions/vercel-og-nextjs
+   - License: MIT
+   - License file: /licenses/VERCEL_TEMPLATE_LICENSE
+   - Modifications: Structural, formatting, and functional changes.
