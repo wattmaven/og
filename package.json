@@ -19,8 +19,8 @@
     "build": "next build",
     "start": "next start",
     "clean": "rimraf .next node_modules",
-    "pre-commit-tasks": "turbo format:check lint:check",
-    "ci:smoke-test": "turbo format:check lint:check"
+    "pre-commit-tasks": "turbo format:check lint:check build",
+    "ci:smoke-test": "turbo format:check lint:check build"
   },
   "dependencies": {
     "@vercel/og": "^0.5.2",
