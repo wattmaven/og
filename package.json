@@ -34,7 +34,7 @@
     "@commitlint/prompt-cli": "19.7.1",
     "@commitlint/types": "19.5.0",
     "@types/node": "18.15.5",
-    "@types/react": "^18.0.28",
+    "@types/react": "18.0.28",
     "eslint": "9.21.0",
     "eslint-config-next": "15.2.1",
     "eslint-config-prettier": "10.0.2",
