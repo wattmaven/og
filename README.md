@@ -1,5 +1,7 @@
 # og
 
+![Static](https://og.wattmaven.com/api/static)
+
 Open Graph images for WattMaven.
 
 ## Development
