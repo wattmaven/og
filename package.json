@@ -23,27 +23,27 @@
     "ci:smoke-test": "turbo format:check lint:check build"
   },
   "dependencies": {
-    "@vercel/og": "^0.5.2",
+    "@vercel/og": "^0.6.0",
     "next": "^15.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.7.1",
-    "@commitlint/config-conventional": "19.7.1",
-    "@commitlint/prompt-cli": "19.7.1",
-    "@commitlint/types": "19.5.0",
-    "@types/node": "18.15.5",
-    "@types/react": "18.0.28",
-    "eslint": "9.21.0",
-    "eslint-config-next": "15.2.1",
-    "eslint-config-prettier": "10.0.2",
-    "lefthook": "1.11.2",
+    "@commitlint/cli": "19.8.0",
+    "@commitlint/config-conventional": "19.8.0",
+    "@commitlint/prompt-cli": "19.8.0",
+    "@commitlint/types": "19.8.0",
+    "@types/node": "18.19.80",
+    "@types/react": "18.3.18",
+    "eslint": "9.22.0",
+    "eslint-config-next": "15.2.2",
+    "eslint-config-prettier": "10.1.1",
+    "lefthook": "1.11.3",
     "npm-run-all2": "7.0.2",
     "prettier": "3.5.3",
     "prettier-plugin-organize-imports": "4.1.0",
     "rimraf": "6.0.1",
-    "turbo": "1.8.5",
+    "turbo": "1.13.4",
     "typescript": "4.9.5"
   }
 }
