@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@vercel/og':
         specifier: ^0.6.0
-        version: 0.6.5
+        version: 0.6.8
       next:
         specifier: ^15.2.1
         version: 15.2.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -23,13 +23,13 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: 19.8.0
-        version: 19.8.0(@types/node@22.13.14)(typescript@5.8.2)
+        version: 19.8.0(@types/node@22.14.0)(typescript@5.8.2)
       '@commitlint/config-conventional':
         specifier: 19.8.0
         version: 19.8.0
       '@commitlint/prompt-cli':
         specifier: 19.8.0
-        version: 19.8.0(@types/node@22.13.14)(typescript@5.8.2)
+        version: 19.8.0(@types/node@22.14.0)(typescript@5.8.2)
       '@commitlint/types':
         specifier: 19.8.0
         version: 19.8.0
@@ -37,11 +37,11 @@ importers:
         specifier: ^3.3.1
         version: 3.3.1
       '@types/node':
-        specifier: 22.13.14
-        version: 22.13.14
+        specifier: 22.14.0
+        version: 22.14.0
       '@types/react':
-        specifier: 19.0.12
-        version: 19.0.12
+        specifier: 19.1.0
+        version: 19.1.0
       eslint:
         specifier: 9.23.0
         version: 9.23.0(jiti@2.4.2)
@@ -52,8 +52,8 @@ importers:
         specifier: 10.1.1
         version: 10.1.1(eslint@9.23.0(jiti@2.4.2))
       lefthook:
-        specifier: 1.11.5
-        version: 1.11.5
+        specifier: 1.11.6
+        version: 1.11.6
       npm-run-all2:
         specifier: 7.0.2
         version: 7.0.2
@@ -450,11 +450,11 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.13.14':
-    resolution: {integrity: sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==}
+  '@types/node@22.14.0':
+    resolution: {integrity: sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==}
 
-  '@types/react@19.0.12':
-    resolution: {integrity: sha512-V6Ar115dBDrjbtXSrS+/Oruobc+qVbbUxDFC1RSbRqLt5SYvxxyIDrSC85RWml54g+jfNeEMZhEj7wW07ONQhA==}
+  '@types/react@19.1.0':
+    resolution: {integrity: sha512-UaicktuQI+9UKyA4njtDOGBD/67t8YEBt2xdfqu8+gP9hqPUPsiXlNPcpS2gVdjmis5GKPG3fCxbQLVgxsQZ8w==}
 
   '@typescript-eslint/eslint-plugin@8.28.0':
     resolution: {integrity: sha512-lvFK3TCGAHsItNdWZ/1FkvpzCxTHUVuFrdnOGLMa0GGCFIbCgQWVk3CzCGdA7kM3qGVc+dfW9tr0Z/sHnGDFyg==}
@@ -578,8 +578,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vercel/og@0.6.5':
-    resolution: {integrity: sha512-GFXtgid3+TcVHTd668a10vGpzAh4Ty/yBZPRxKf1UicI8Vi8EthfvSxcaLW0KvQBBe1+d7TcjecLZHRT8JzQ4g==}
+  '@vercel/og@0.6.8':
+    resolution: {integrity: sha512-e4kQK9mP8ntpo3dACWirGod/hHv4qO5JMj9a/0a2AZto7b4persj5YP7t1Er372gTtYFTYxNhMx34jRvHooglw==}
     engines: {node: '>=16'}
 
   JSONStream@1.3.5:
@@ -1491,58 +1491,58 @@ packages:
     resolution: {integrity: sha512-MbjN408fEndfiQXbFQ1vnd+1NoLDsnQW41410oQBXiyXDMYH5z505juWa4KUE1LqxRC7DgOgZDbKLxHIwm27hA==}
     engines: {node: '>=0.10'}
 
-  lefthook-darwin-arm64@1.11.5:
-    resolution: {integrity: sha512-58VgfpwVZou3OcELAo673gwT1Y2iE0W/zdh9sI7/ZJHjjPNGuxHqroI/woB/SzhRjndwKsa2YUaYntb2ZqgyMw==}
+  lefthook-darwin-arm64@1.11.6:
+    resolution: {integrity: sha512-gWgdWrKgZgX+bKc6Vs/x7JkO+58lLOpRzpteLx//82D0MKVPlNZwjd4zz4AbIBXtM4Hcj+6gSsOzQ7QDXxjVvQ==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@1.11.5:
-    resolution: {integrity: sha512-wZBYZWK0CcsHYQJwLHxaitG1LKIPE0s4E4MjB0oGd4DrFGWSmJUSv1q888Rc1515U2L3VS8CH91f1PvOusTURA==}
+  lefthook-darwin-x64@1.11.6:
+    resolution: {integrity: sha512-Ia0TjTKuYcSaDTuoCnbWtpPZ2VEoKzgn33OB90VjNaSVs4ooE0PIdpO+w00x1elqIaf1pbrpq6HgeB26Du8KbQ==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-freebsd-arm64@1.11.5:
-    resolution: {integrity: sha512-fyTZffoe3XaKquQ1gqEybwpSv4z1XRTLkgqYoz3uuY0s/4vcRu1N13egDu5Lqbdm57ps9VWEqYD7wTiHw3ldGA==}
+  lefthook-freebsd-arm64@1.11.6:
+    resolution: {integrity: sha512-PxIwj+hmjLahyzEmcIfalIBDhgklAQCavwM4sGCgbzDi4/+VQX+4aEs4pQqtd7v3aohmjtO/4n2emzTI8donww==}
     cpu: [arm64]
     os: [freebsd]
 
-  lefthook-freebsd-x64@1.11.5:
-    resolution: {integrity: sha512-sumvthx/U2R36YfNH/Uhwi77ZC5g1s41xBBjAE9VM6xlQarcw/A/DGPu9OaH8AM0Td089jUStT/8zN85GQfg6Q==}
+  lefthook-freebsd-x64@1.11.6:
+    resolution: {integrity: sha512-3o1lMKxz1VtWaP/o117wgUn3ZOpefMoSf+8LuiTzI3/PDprIuzgyw2nXKlBZAMDpNPHMNnJeQNts9XLMRmkldg==}
     cpu: [x64]
     os: [freebsd]
 
-  lefthook-linux-arm64@1.11.5:
-    resolution: {integrity: sha512-DclKoRxDc6NqhPyjuwbA+oOGSkhCZXmHzUdpo/p6Yf4owoJZtcM6yEvWN+77L8N4kUiW2pNoFj61fEZkYCc4pA==}
+  lefthook-linux-arm64@1.11.6:
+    resolution: {integrity: sha512-nKPFZ5cA9f5tVn0ybDVqcXXlpTHZqo05N4KQRhWTj5Nem+JoD2YzJIlvZhdJhUrldERqj6deDMXChH5T3z4Rrw==}
     cpu: [arm64]
     os: [linux]
 
-  lefthook-linux-x64@1.11.5:
-    resolution: {integrity: sha512-5omR/uX0TOYJy94uWAeQIO+4HkoQjW425VQ48HtR3aqmODqj1ELYbR8YKtEcYUK+RqIzREG1kBODXmtIsINTdA==}
+  lefthook-linux-x64@1.11.6:
+    resolution: {integrity: sha512-naN8dllLCOEeP+wznLnq+oXrs1dvt/iMLkcl+pOPWLqFccPfDiHzr8V8GslaTa+rSFsAnvjR7SJIOi5C29xedA==}
     cpu: [x64]
     os: [linux]
 
-  lefthook-openbsd-arm64@1.11.5:
-    resolution: {integrity: sha512-i1Ji2+KBQPeqCFaSmoBkGhcREQ+0zocuo24fxj2I5jkEIZFM0+UvwPTSsg6ZwOgftV2IcqRKGE2DbIQN1M+U2A==}
+  lefthook-openbsd-arm64@1.11.6:
+    resolution: {integrity: sha512-dPxhJfYQ667T+U3pz1+O3mTRNHzXH/BvPlXSH+oy8uiSry4AtVNRXkVvXPUcpLlrAy6HuFYodsrpCIlWFeYwiQ==}
     cpu: [arm64]
     os: [openbsd]
 
-  lefthook-openbsd-x64@1.11.5:
-    resolution: {integrity: sha512-60XJUYgk4DEoMX1af8b8R3DosneawiHeJR6A3Pa62rfElVL9puqHEdscA9qW5hW9lm/bH6gFs8KB55yqjMmf1g==}
+  lefthook-openbsd-x64@1.11.6:
+    resolution: {integrity: sha512-9D26kcSsjiW4D0AuVDdi+0ZqrsOzRWOpMS/kcUbLfrU99yCvma0rMTqKbbDMkVur/znS7qL53oGahXCXDNA+IQ==}
     cpu: [x64]
     os: [openbsd]
 
-  lefthook-windows-arm64@1.11.5:
-    resolution: {integrity: sha512-Ttfwdk9QeoDwvgjS71PocpvwuNnB39+8Az6OuXteWaSn5UA3g+wtD28Bu/BRHseym3RhqXfkYWthii7Vwu7iTQ==}
+  lefthook-windows-arm64@1.11.6:
+    resolution: {integrity: sha512-xdCenr4+BFnfBEhiXj6GJp02EPmcwTAGa7NYm6hVTfDwGXw24tuLv7lpnGjgK3kovN6EukgLH1FYkeyDOBEMnA==}
     cpu: [arm64]
     os: [win32]
 
-  lefthook-windows-x64@1.11.5:
-    resolution: {integrity: sha512-r5MWvJbnCElXeMzKZ4RTyffqzeIWK1xq526hB/Qt55PfbF8is/caEVoutjhzzhyks2vfXZUwVE7oDYif/co5iA==}
+  lefthook-windows-x64@1.11.6:
+    resolution: {integrity: sha512-Fg2GzLhzeDV/GX8+ydrI0wBOytQWpPkNdngx+a8B/feCDbwjAiFklDG5oV4ytuWrtg1JPEEWLJd6nHefj4wtHA==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@1.11.5:
-    resolution: {integrity: sha512-iv3pJsfg0zDVqRa+sUsfZ4AsAk2W5KOpouNptLQxFncU5hZa60HfDHIp9pne/E7LoAyzGbwMCGYnBdGpQZc5Pg==}
+  lefthook@1.11.6:
+    resolution: {integrity: sha512-j0VmMM50WlPDassmgvapRum9po29Tv1BXzBNFpzGkk9E91CEG9jKik/OHyH/r/na+q8qNIUUyPL6QQuTN/UhQQ==}
     hasBin: true
 
   levn@0.4.1:
@@ -1946,8 +1946,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  satori@0.12.1:
-    resolution: {integrity: sha512-0SbjchvDrDbeXeQgxWVtSWxww7qcFgk3DtSE2/blHOSlLsSHwIqO2fCrtVa/EudJ7Eqno8A33QNx56rUyGbLuw==}
+  satori@0.12.2:
+    resolution: {integrity: sha512-3C/laIeE6UUe9A+iQ0A48ywPVCCMKCNSTU5Os101Vhgsjd3AAxGNjyq0uAA8kulMPK5n0csn8JlxPN9riXEjLA==}
     engines: {node: '>=16'}
 
   scheduler@0.26.0:
@@ -2209,8 +2209,8 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@6.20.0:
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
   unicode-trie@2.0.0:
     resolution: {integrity: sha512-x7bc76x0bm4prf1VLg79uhAzKw8DVboClSN5VxJuQ+LKDOVEW9CdH+VY7SP+vX7xCYQqzzgQpFqz15zeLvAtZQ==}
@@ -2310,11 +2310,11 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.25.9': {}
 
-  '@commitlint/cli@19.8.0(@types/node@22.13.14)(typescript@5.8.2)':
+  '@commitlint/cli@19.8.0(@types/node@22.14.0)(typescript@5.8.2)':
     dependencies:
       '@commitlint/format': 19.8.0
       '@commitlint/lint': 19.8.0
-      '@commitlint/load': 19.8.0(@types/node@22.13.14)(typescript@5.8.2)
+      '@commitlint/load': 19.8.0(@types/node@22.14.0)(typescript@5.8.2)
       '@commitlint/read': 19.8.0
       '@commitlint/types': 19.8.0
       tinyexec: 0.3.2
@@ -2361,7 +2361,7 @@ snapshots:
       '@commitlint/rules': 19.8.0
       '@commitlint/types': 19.8.0
 
-  '@commitlint/load@19.8.0(@types/node@22.13.14)(typescript@5.8.2)':
+  '@commitlint/load@19.8.0(@types/node@22.14.0)(typescript@5.8.2)':
     dependencies:
       '@commitlint/config-validator': 19.8.0
       '@commitlint/execute-rule': 19.8.0
@@ -2369,7 +2369,7 @@ snapshots:
       '@commitlint/types': 19.8.0
       chalk: 5.4.1
       cosmiconfig: 9.0.0(typescript@5.8.2)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.13.14)(cosmiconfig@9.0.0(typescript@5.8.2))(typescript@5.8.2)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.14.0)(cosmiconfig@9.0.0(typescript@5.8.2))(typescript@5.8.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -2385,19 +2385,19 @@ snapshots:
       conventional-changelog-angular: 7.0.0
       conventional-commits-parser: 5.0.0
 
-  '@commitlint/prompt-cli@19.8.0(@types/node@22.13.14)(typescript@5.8.2)':
+  '@commitlint/prompt-cli@19.8.0(@types/node@22.14.0)(typescript@5.8.2)':
     dependencies:
-      '@commitlint/prompt': 19.8.0(@types/node@22.13.14)(typescript@5.8.2)
+      '@commitlint/prompt': 19.8.0(@types/node@22.14.0)(typescript@5.8.2)
       inquirer: 9.3.7
       tinyexec: 0.3.2
     transitivePeerDependencies:
       - '@types/node'
       - typescript
 
-  '@commitlint/prompt@19.8.0(@types/node@22.13.14)(typescript@5.8.2)':
+  '@commitlint/prompt@19.8.0(@types/node@22.14.0)(typescript@5.8.2)':
     dependencies:
       '@commitlint/ensure': 19.8.0
-      '@commitlint/load': 19.8.0(@types/node@22.13.14)(typescript@5.8.2)
+      '@commitlint/load': 19.8.0(@types/node@22.14.0)(typescript@5.8.2)
       '@commitlint/types': 19.8.0
       chalk: 5.4.1
       inquirer: 9.3.7
@@ -2674,7 +2674,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 22.13.14
+      '@types/node': 22.14.0
 
   '@types/estree@1.0.7': {}
 
@@ -2682,11 +2682,11 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.13.14':
+  '@types/node@22.14.0':
     dependencies:
-      undici-types: 6.20.0
+      undici-types: 6.21.0
 
-  '@types/react@19.0.12':
+  '@types/react@19.1.0':
     dependencies:
       csstype: 3.1.3
 
@@ -2814,10 +2814,10 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.3.3':
     optional: true
 
-  '@vercel/og@0.6.5':
+  '@vercel/og@0.6.8':
     dependencies:
       '@resvg/resvg-wasm': 2.4.0
-      satori: 0.12.1
+      satori: 0.12.2
       yoga-wasm-web: 0.3.3
 
   JSONStream@1.3.5:
@@ -3066,9 +3066,9 @@ snapshots:
       meow: 12.1.1
       split2: 4.2.0
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@22.13.14)(cosmiconfig@9.0.0(typescript@5.8.2))(typescript@5.8.2):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@22.14.0)(cosmiconfig@9.0.0(typescript@5.8.2))(typescript@5.8.2):
     dependencies:
-      '@types/node': 22.13.14
+      '@types/node': 22.14.0
       cosmiconfig: 9.0.0(typescript@5.8.2)
       jiti: 2.4.2
       typescript: 5.8.2
@@ -3898,48 +3898,48 @@ snapshots:
     dependencies:
       language-subtag-registry: 0.3.23
 
-  lefthook-darwin-arm64@1.11.5:
+  lefthook-darwin-arm64@1.11.6:
     optional: true
 
-  lefthook-darwin-x64@1.11.5:
+  lefthook-darwin-x64@1.11.6:
     optional: true
 
-  lefthook-freebsd-arm64@1.11.5:
+  lefthook-freebsd-arm64@1.11.6:
     optional: true
 
-  lefthook-freebsd-x64@1.11.5:
+  lefthook-freebsd-x64@1.11.6:
     optional: true
 
-  lefthook-linux-arm64@1.11.5:
+  lefthook-linux-arm64@1.11.6:
     optional: true
 
-  lefthook-linux-x64@1.11.5:
+  lefthook-linux-x64@1.11.6:
     optional: true
 
-  lefthook-openbsd-arm64@1.11.5:
+  lefthook-openbsd-arm64@1.11.6:
     optional: true
 
-  lefthook-openbsd-x64@1.11.5:
+  lefthook-openbsd-x64@1.11.6:
     optional: true
 
-  lefthook-windows-arm64@1.11.5:
+  lefthook-windows-arm64@1.11.6:
     optional: true
 
-  lefthook-windows-x64@1.11.5:
+  lefthook-windows-x64@1.11.6:
     optional: true
 
-  lefthook@1.11.5:
+  lefthook@1.11.6:
     optionalDependencies:
-      lefthook-darwin-arm64: 1.11.5
-      lefthook-darwin-x64: 1.11.5
-      lefthook-freebsd-arm64: 1.11.5
-      lefthook-freebsd-x64: 1.11.5
-      lefthook-linux-arm64: 1.11.5
-      lefthook-linux-x64: 1.11.5
-      lefthook-openbsd-arm64: 1.11.5
-      lefthook-openbsd-x64: 1.11.5
-      lefthook-windows-arm64: 1.11.5
-      lefthook-windows-x64: 1.11.5
+      lefthook-darwin-arm64: 1.11.6
+      lefthook-darwin-x64: 1.11.6
+      lefthook-freebsd-arm64: 1.11.6
+      lefthook-freebsd-x64: 1.11.6
+      lefthook-linux-arm64: 1.11.6
+      lefthook-linux-x64: 1.11.6
+      lefthook-openbsd-arm64: 1.11.6
+      lefthook-openbsd-x64: 1.11.6
+      lefthook-windows-arm64: 1.11.6
+      lefthook-windows-x64: 1.11.6
 
   levn@0.4.1:
     dependencies:
@@ -4335,7 +4335,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  satori@0.12.1:
+  satori@0.12.2:
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
       css-background-parser: 0.1.0
@@ -4657,7 +4657,7 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  undici-types@6.20.0: {}
+  undici-types@6.21.0: {}
 
   unicode-trie@2.0.0:
     dependencies:
